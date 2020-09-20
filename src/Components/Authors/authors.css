@@ -1,17 +1,91 @@
-.back{
-     background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); 
-    background-size: cover;
+.authaddfilter{
+    background-image: linear-gradient(to bottom, #874da2 0%, #c43a30 100%);
  }
- 
-.font-setting{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    font-size: 8vh;
+.autheventHeading{
+    margin-top: 20vh;
 }
-.card-alignment{
-    width: 100%;
-    align-content: center;
+
+.authfooter{
+    background-color: #c43a30;
+    height: 20vh;
+    width: 100vw;
+    margin-top: 10vh;
 }
+.authinfo{
+    font-size: 25px;
+    margin-top: 30px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    font-weight: 700;
+}
+
+.authinfoHeading{
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+.authinfoData{
+    font-size: 20px;
+    color: rgba(2,0,36,1);
+    margin-left: 14px;
+}
+.authinfoouter{
+    margin-top: 10px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    display: flex;
+}
+.authinfobox{
+    border: 1px solid rgba(2,0,36);
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 50vw;
+    padding: 20px;
+    padding-bottom: 6vh;
+    background-color: #c494b8;
+}
+.authList{
+    font-size: 20px;
+    margin-left: 60px;
+    list-style-type: disc !important;
+}
+
+.authitem{
+    margin-left: 10px;
+    list-style-type: disc !important;
+}
+@media only screen and (max-width: 960px) {
+    .authinfobox{
+        width: 80vw;
+        margin-bottom: 10px;
+    }
+    .authinfoData{
+        font-size: 20px;
+    }
+    .authinfoHeading{
+        font-size: 25px;
+    }
+    .authinfoouter{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .authinfoData{
+        font-size: 15px;
+    }
+    .authinfoHeading{
+        font-size: 25px;
+    }
+    .authinfo{
+        font-size: 15px;
+        margin-bottom:10px;
+    }
+    .authList{
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 25px;
+        margin-right: 10vw;
+    }
+  }
