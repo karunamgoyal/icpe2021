@@ -17,22 +17,22 @@ function App() {
       <div>
         <Router>
           <Switch>
-            <Route exact path={process.env.PUBLIC_URL+'/'}>
+            <Route exact path='/'>
               <Home />
             </Route>
-            <Route exact path={process.env.PUBLIC_URL+'/authors'}>
+            <Route exact path='/authors'>
               <Authors />
             </Route>
-            <Route exact path={process.env.PUBLIC_URL+'/committee'}>
+            <Route exact path='/committee'>
               <Committee />
             </Route>
-            <Route exact path={process.env.PUBLIC_URL+'/keynote'}>
+            <Route exact path='/keynote'>
               <KeyNote />
             </Route>
-            <Route exact path={process.env.PUBLIC_URL+'/dates'}>
+            <Route exact path='/dates'>
               <KeyDates />
             </Route>
-            <Route exact path={process.env.PUBLIC_URL+'/contactus'}>
+            <Route exact path='/contactus'>
               <ContactUs />
             </Route>
           </Switch>

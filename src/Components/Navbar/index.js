@@ -24,12 +24,12 @@ class Navbar extends Component {
                     outDuration: 200,
                     preventScrolling: true
                 }}>
-                <NavItem className="black-text" href={process.env.PUBLIC_URL+'/'}>HOME</NavItem>
-                <NavItem className="black-text" href={process.env.PUBLIC_URL+'/committee'}>COMMITTEE</NavItem>
-                <NavItem className="black-text" href={process.env.PUBLIC_URL+'/keynote'}>KEYNOTE</NavItem>
-                <NavItem className="black-text" href={process.env.PUBLIC_URL+'/authors'}>FOR AUTHORS</NavItem>
-                <NavItem className="black-text" href={process.env.PUBLIC_URL+'/dates'}>KEY DATES</NavItem>
-                <NavItem className="black-text" href={process.env.PUBLIC_URL+'/contactus'}>CONTACT US</NavItem>
+                <NavItem className="black-text" href='/'>HOME</NavItem>
+                <NavItem className="black-text" href='/committee'>COMMITTEE</NavItem>
+                <NavItem className="black-text" href='/keynote'>KEYNOTE</NavItem>
+                <NavItem className="black-text" href='/authors'>FOR AUTHORS</NavItem>
+                <NavItem className="black-text" href='/dates'>KEY DATES</NavItem>
+                <NavItem className="black-text" href='/contactus'>CONTACT US</NavItem>
             </Navigation>
         );
     }
