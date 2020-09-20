@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.60481ad5.chunk.css",
-    "main.js": "./static/js/main.9f71be89.chunk.js",
-    "main.js.map": "./static/js/main.9f71be89.chunk.js.map",
-    "runtime-main.js": "./static/js/runtime-main.fe266ba8.js",
-    "runtime-main.js.map": "./static/js/runtime-main.fe266ba8.js.map",
-    "static/js/2.12bb2f69.chunk.js": "./static/js/2.12bb2f69.chunk.js",
-    "static/js/2.12bb2f69.chunk.js.map": "./static/js/2.12bb2f69.chunk.js.map",
-    "index.html": "./index.html",
-    "precache-manifest.8182ce32c3ff1fa022786b169cfd3f74.js": "./precache-manifest.8182ce32c3ff1fa022786b169cfd3f74.js",
-    "service-worker.js": "./service-worker.js",
-    "static/css/main.60481ad5.chunk.css.map": "./static/css/main.60481ad5.chunk.css.map",
-    "static/js/2.12bb2f69.chunk.js.LICENSE.txt": "./static/js/2.12bb2f69.chunk.js.LICENSE.txt",
-    "static/media/combined3.png": "./static/media/combined3.dcd6a766.png",
-    "static/media/keynote.css": "./static/media/image.4147f447.jpg",
-    "static/media/contactus.css": "./static/media/image.d186e37f.jpg"
+    "main.css": "/icpe2021/static/css/main.81bda3d0.chunk.css",
+    "main.js": "/icpe2021/static/js/main.9edd171d.chunk.js",
+    "main.js.map": "/icpe2021/static/js/main.9edd171d.chunk.js.map",
+    "runtime-main.js": "/icpe2021/static/js/runtime-main.6e6ec67c.js",
+    "runtime-main.js.map": "/icpe2021/static/js/runtime-main.6e6ec67c.js.map",
+    "static/js/2.12bb2f69.chunk.js": "/icpe2021/static/js/2.12bb2f69.chunk.js",
+    "static/js/2.12bb2f69.chunk.js.map": "/icpe2021/static/js/2.12bb2f69.chunk.js.map",
+    "index.html": "/icpe2021/index.html",
+    "precache-manifest.d605ddd7b5dd7c1ecbb78fbea00f8982.js": "/icpe2021/precache-manifest.d605ddd7b5dd7c1ecbb78fbea00f8982.js",
+    "service-worker.js": "/icpe2021/service-worker.js",
+    "static/css/main.81bda3d0.chunk.css.map": "/icpe2021/static/css/main.81bda3d0.chunk.css.map",
+    "static/js/2.12bb2f69.chunk.js.LICENSE.txt": "/icpe2021/static/js/2.12bb2f69.chunk.js.LICENSE.txt",
+    "static/media/combined3.png": "/icpe2021/static/media/combined3.dcd6a766.png",
+    "static/media/keynote.css": "/icpe2021/static/media/image.4147f447.jpg",
+    "static/media/contactus.css": "/icpe2021/static/media/image.d186e37f.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.fe266ba8.js",
+    "static/js/runtime-main.6e6ec67c.js",
     "static/js/2.12bb2f69.chunk.js",
-    "static/css/main.60481ad5.chunk.css",
-    "static/js/main.9f71be89.chunk.js"
+    "static/css/main.81bda3d0.chunk.css",
+    "static/js/main.9edd171d.chunk.js"
   ]
 }
