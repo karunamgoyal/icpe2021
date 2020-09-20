@@ -11,29 +11,28 @@ import ContactUs from './Components/ContactUs/index';
 import KeyDates from './Components/Keydates/index';
 import KeyNote from './Components/Keynote/index';
 import Authors from './Components/Authors/index';
-import Navbar from "./Components/Navbar/index";
 function App() {
   return (
-    <div className="App w-screen h-screen ">
+    <div className="App">
       <div>
         <Router>
           <Switch>
-            <Route exact path="/">
+            <Route exact path={process.env.PUBLIC_URL+'/'}>
               <Home />
             </Route>
-            <Route exact path="/authors">
+            <Route exact path={process.env.PUBLIC_URL+'/authors'}>
               <Authors />
             </Route>
-            <Route exact path="/committee">
+            <Route exact path={process.env.PUBLIC_URL+'/committee'}>
               <Committee />
             </Route>
-            <Route exact path="/keynote">
+            <Route exact path={process.env.PUBLIC_URL+'/keynote'}>
               <KeyNote />
             </Route>
-            <Route exact path="/dates">
+            <Route exact path={process.env.PUBLIC_URL+'/dates'}>
               <KeyDates />
             </Route>
-            <Route exact path="/contactus">
+            <Route exact path={process.env.PUBLIC_URL+'/contactus'}>
               <ContactUs />
             </Route>
           </Switch>
