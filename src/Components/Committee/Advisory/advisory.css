@@ -1,0 +1,58 @@
+.advisoryaddfilter{
+   background-image:linear-gradient(to bottom, rgba(7,41,53,1) 3%, rgba(10,74,91,1) 37%, rgba(9,122,138,1) 66%, rgba(15,184,168,1) 89%, rgba(14,226,213,1) 100%);
+   /* background-color: black; */
+}
+
+.organizingHome{
+    height: 60vh;
+}
+
+.adveventHeading{
+    font-size: 70px;
+}
+.homeBlock{
+    margin-top: 20vh;
+}
+.advfooter{
+    background-color: rgba(14,226,213,1);
+    height: 20vh;
+    margin-top: 30px;
+}
+
+.advisoryBox{
+    margin-left: 10vw;
+}
+.advisoryHeading{
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.advList{
+    font-size: 25px;
+    margin-left: 30px;
+    list-style-type: disc !important;
+}
+
+.advitem{
+    margin-left: 10px;
+    list-style-type: disc !important;
+}
+@media only screen and (max-width: 650px) {
+    .adveventHeading{
+        font-size: 40px;
+    }
+    .advisoryHeading{
+        font-size: 25px;
+    }
+    .advList{
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 0;
+        margin-right: 10vw;
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
