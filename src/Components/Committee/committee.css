@@ -1,7 +1,23 @@
-.committeeaddfilter{
-   background-image:linear-gradient(to bottom, rgba(108,57,15,0.85) 3%, rgba(148,88,24,1) 28%, rgba(120,70,9,0.8) 46%, rgba(224,182,25,1) 79%, rgba(190,181,4,1) 100%);
+.caddfilter{
+   background-image:linear-gradient(160deg, rgb(0, 147, 233,0.5) 0%, rgb(128, 208, 199,0.6) 100%),url('../Images/comittee.jpg');
    /* background-color: black; */
 }
+.font-setting{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 7.5vh;
+ }
+ thead{
+    background-color: rgb(6, 179, 179);
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.2rem;
+ }
+ tbody{
+    font-size: 1rem;
+ }
 
 .organizingHome{
     height: 60vh;
@@ -79,6 +95,13 @@
     }
 }
 @media only screen and (max-width: 650px) {
+    .font-setting{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 6vh;
+     }
     .commeventHeading{
         font-size: 30px;
     }

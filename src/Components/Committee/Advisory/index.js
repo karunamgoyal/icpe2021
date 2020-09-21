@@ -1,24 +1,25 @@
 import React, { Component } from 'react';
 import Navbar from '../../Navbar/index';
+import 'materialize-css';
+import { Carousel} from "react-materialize";
 import "./advisory.css";
 class Advisory extends Component {
     render() {
         return (
             <>
                 <Navbar />
-                <div className="w-screen organizingHome">
-                    <div className="w-screen absolute organizingHome">
-                        <div className="w-screen organizingHome bg-cover absolute advisoryaddfilter"></div>
+                <Carousel
+                    carouselId="Carousel-2"
+                    className="white-text center"
+                    options={{
+                        fullWidth: true,
+                        indicators: true
+                    }}
+                >
+                    <div className="advisoryaddfilter">
+                        <h1 className="font-bold font-setting">ADVISORY COMMITTEE</h1>
                     </div>
-                    <div className="w-screen organizingHome absolute">
-
-                        <div className="homeBlock mx-auto text-center text-white">
-                            <h1 className="mx-auto adveventHeading font-bold">
-                                ADVISORY COMMITTEE
-                        </h1>
-                        </div>
-                    </div>
-                </div>
+                </Carousel>
                 <div>
                     <div className="advisoryBox">
                         <h1 className="advisoryHeading">INTERNATIONAL ADVISORY COMMITTEE</h1>

@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/index';
 import "./committee.css";
+import 'materialize-css';
+import { Carousel,Container } from "react-materialize";
 import Card from "./cards.js";
 class Committee extends Component {
     render() {
         return (
             <>
                 <Navbar/>
-                <div className="w-screen organizingHome">
-                    <div className="w-screen absolute organizingHome">
-                        <div className="w-screen organizingHome bg-cover absolute committeeaddfilter"></div>
+                <Carousel
+                    carouselId="Carousel-2"
+                    className="white-text center"
+                    options={{
+                        fullWidth: true,
+                        indicators: true
+                    }}
+                >
+                    <div className="caddfilter">
+                        <h1 className="font-bold font-setting">ORGANIZING COMMITTEE</h1>
                     </div>
-                    <div className="w-screen organizingHome absolute">
-
-                        <div className="homeBlock mx-auto text-center text-white">
-                            <h1 className="mx-auto commeventHeading font-bold">
-                                ORGANIZING COMMITTEE
-                        </h1>
-                        </div>
-                    </div>
-                </div>
+                </Carousel>
+                
                 <div>
                     <div className="ChiefPatron">
                         <h1 className="committeeHeading font-bold text-center">CHIEF PATRON</h1>

@@ -1,9 +1,7 @@
 .add{
-    /* background-color: #0093E9;
-    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
     background-image:linear-gradient(to bottom, rgba(108,57,15,0.75) 3%, rgba(148,88,24,0.75) 28%, rgba(120,70,9,0.75) 46%, rgba(224,182,25,0.75) 79%, rgba(190,181,4,0.75) 100%),
-    url('images/image.jpg');
-    background-size: cover;
+    url('../Images/contactus.jpg');
+    background-size: contain;
  }
  
 .font-setting{
@@ -13,7 +11,30 @@
     transform: translateX(-50%) translateY(-50%);
     font-size: 8vh;
 }
-.card-alignment{
-    width: 100%;
-    align-content: center;
+.container{
+    margin-top: 10vh;
+    padding: 3vh;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-bottom: 10vh;
+}
+h4{
+    margin-bottom: 32px;
+    margin-top: 32px;
+    font-weight: bold;
+}
+.name{
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: x-large;
+}
+.phone{
+    margin-bottom: 16px;
+    font-style: italic;
+    font-size: medium;
+}
+.desig{
+    margin-bottom: 16px;
+    font-weight: bold;
+    font-size: large;
 }

@@ -8,20 +8,21 @@ import CardKeynote from "./cards.js"
 class KeyNote extends Component {
     render() {
         return (
-            <>
+            <div>
                 <Navbar />
-                <div className="w-screen KeynoteHeading">
-                    <div className="w-screen KeynoteHeading absolute">
-                        <div className="w-screen KeynoteHeading bg-cover absolute keynoteaddfilter"></div>
+                <Carousel
+                    carouselId="Carousel-2"
+                    className="white-text center"
+                    options={{
+                        fullWidth: true,
+                        indicators: true
+                    }}
+                >
+                    <div className="keynoteaddfilter">
+                        <h1 className="font-bold font-setting">KEYNOTE</h1>
                     </div>
-                    <div className="w-screen KeynoteHeading absolute">
-                        <div className="homeBlock mx-auto text-center text-white">
-                            <h1 className="mx-auto keynoteeventHeading font-bold">
-                                KEYNOTE
-                        </h1>
-                        </div>
-                    </div>
-                </div>
+                </Carousel>
+                
                 <div>
                     <div className="keynoteRow">
                         <div className="keynoteCard">
@@ -78,7 +79,7 @@ class KeyNote extends Component {
                 </div>
                 <div className="h-64">
                 </div>
-            </>
+            </div>
         );
     }
 }

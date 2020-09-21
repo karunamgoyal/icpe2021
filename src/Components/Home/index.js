@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../Navbar/index';
 import InfoCarousel from "./InfoCarousel/index";
 import "./home.css";
+import "./back.css"
 class Home extends Component {
     render() {
         return (
@@ -14,7 +15,7 @@ class Home extends Component {
                     <div className="w-screen h-screen absolute">
                         <div className="homeBlock mx-auto text-center text-white">
                             <h1 className="mx-auto eventHeading font-bold">
-                                ICPE-2021
+                            ICCWC-2021
                             </h1>
                             <br />
                             <span className="eventName">
@@ -27,11 +28,25 @@ class Home extends Component {
                             </div>
                         </div>
                     </div>
+                    <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
                 </div>
                 <div>
-                    <h1 className="aboutHeading">
+                    <h2 className="aboutHeading">
                         About ICCWC-2021
-                    </h1>
+                    </h2>
                     <p className="aboutData text-justify">
                     The conference is concerned with the application of the latest computational technology to all aspects of Electronics Engineering and Wireless Communications. Computational technology encompasses both the latest hardware and software developments as well as algorithmic and theoretical developments. The conference is concerned with both theoretical, mathematical and scientific developments as well as applications of established technology to new domains. The purpose of holding this conference will aim at bringing together from around the world academics, researchers and practitioners to review recent achievements in the advancement of knowledge and understanding in these areas, share the latest developments, and address the challenges that the present and the future pose. 
                         <br />

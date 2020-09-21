@@ -1,10 +1,16 @@
 .keynoteaddfilter{
-    background-image:
-    url('images/image.jpg');
-    /* background-color: black; */
-    opacity: 0.95;
+  background-image: linear-gradient(to bottom, rgb(135, 77, 162,0.5) 0%, rgb(196, 58, 48,0.5)100%),
+  url('../Images/comittee.jpg');
+  background-size: cover;
  }
- 
+ .font-setting{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 7.5vh;
+}
+
  .expandButton:hover{
    background-color: grey;
  }
@@ -21,6 +27,13 @@
    height: calc(100% - 180px);
 
  }
+ .font-setting{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 6vh;
+}
 
  .activator{
    height: 100%;

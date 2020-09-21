@@ -9,3 +9,8 @@
 .organizingLink{
     color: black !important;
 }
+@media only screen and (max-width: 650px) {
+    .logo-size-nit{
+        height: 6vh;   
+    }
+}

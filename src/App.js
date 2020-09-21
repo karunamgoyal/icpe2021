@@ -12,6 +12,7 @@ import ContactUs from './Components/ContactUs/index';
 import KeyDates from './Components/Keydates/index';
 import KeyNote from './Components/Keynote/index';
 import Authors from './Components/Authors/index';
+import Registration from "./Components/Authors/Registration/index";
 function App() {
   return (
     <div className="App">
@@ -29,6 +30,9 @@ function App() {
             </Route>
             <Route exact path="/advisory">
               <Advisory />
+            </Route>
+            <Route exact path="/registration">
+              <Registration />
             </Route>
             <Route exact path="/keynote">
               <KeyNote />

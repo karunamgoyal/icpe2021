@@ -1,26 +1,26 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/index';
-import { Carousel, Row, Card, Col, Icon, CardTitle } from "react-materialize";
+import 'materialize-css';
+import { Carousel} from "react-materialize";
 import './authors.css';
 class Authors extends Component {
     render() {
         return (
             <div>
                 <Navbar />
-                <div className="w-screen organizingHome">
-                    <div className="w-screen absolute organizingHome">
-                        <div className="w-screen organizingHome bg-cover absolute authaddfilter"></div>
+                <Carousel
+                    carouselId="Carousel-2"
+                    className="white-text center"
+                    options={{
+                        fullWidth: true,
+                        indicators: true
+                    }}
+                >
+                    <div className="authaddfilter">
+                        <h1 className="font-bold font-setting">TRACKS</h1>
                     </div>
-                    <div className="w-screen organizingHome absolute">
-
-                        <div className="homeBlock mx-auto text-center text-white">
-                            <h1 className="mx-auto autheventHeading font-bold">
-                                TRACKS
-                        </h1>
-                        </div>
-                    </div>
-
-                </div>
+                </Carousel>
+                
                 <div>
                     <p className="authinfo">
                         Authors are invited to submit their latest original and unpublished research work/results in the following areas, but not limited to:

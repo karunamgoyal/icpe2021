@@ -19,22 +19,19 @@ class ContactUs extends Component {
                     <div className="add">
                         <h1 className="font-bold font-setting">CONTACT US</h1>
                     </div>
-
                 </Carousel>
-                <Row className="card-alignment">
-                    <Col
-                        m={3}
-                        s={11}
-                    >
-                        <Card
-                            header={<CardTitle image="https://materializecss.com/images/sample-1.jpg">Card Title</CardTitle>}
-                            revealIcon={<Icon>more_vert</Icon>}
-                            className="hoverable"
-                        >
-                            Here is the standard card with an image thumbnail.
-                        </Card>
-                    </Col>
-                </Row>
+                <div className="container center hoverable">
+                <h4 className="bold">Any Doubts We are All Ears</h4>
+                <div className="contact">
+                    <div className="name">Dr. N. P. Singh</div>
+                    <div className="desig">Associate Prof, ECE Dept, NIT Kurukshetra</div>
+                    <div className="phone">+91-9416412522</div>
+
+                    <div className="name">Dr. Arvind Kumar</div>
+                    <div className="desig">Associate Prof, ECE Dept, NIT Kurukshetra</div>
+                    <div className="phone">+91-9466368417</div>
+                </div>
+                </div>
             </div>
         );
     }
