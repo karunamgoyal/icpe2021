@@ -1,14 +1,10 @@
 import React, { Component } from 'react';
 import 'materialize-css';
-import { Card, Row, Col, CardTitle } from "react-materialize";
+import { Card,CardTitle } from "react-materialize";
 import Icon from '@material-ui/icons/MoreVert';
 import CloseIcon from '@material-ui/icons/Close';
 import "./keynote.css";
 class CardKeynote extends Component {
-    constructor(props) {
-        super(props);
-
-    }
     render() {
         return (
             <Card
