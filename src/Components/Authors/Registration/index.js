@@ -27,7 +27,6 @@ class Registration extends Component {
                 <Table
                     centered={true}
                     hoverable={true}
-                    responsive={true}
                     striped={true}
                     className="hoverable"
                 >
