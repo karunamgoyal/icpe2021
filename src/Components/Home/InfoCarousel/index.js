@@ -11,10 +11,9 @@ class InfoCarousel extends Component {
                             SUBMISSION
                         </h1>
                         <p className="infoData">
-                            Paper submissions are invited in the areas of next generation computing and communication Systems towards Intelligent and Green technologies.
+                            Paper submissions are invited in the area of Electronics and Wireless Communication Systems.
 
-                            Submit your research paper to IC4E-2020 through the Online Submission System .
-                            Easychair link
+                            Easy chair link for paper submission
                         </p>
                     </div>
                     <div className="col l4 m6 s12 infobox">
@@ -22,26 +21,22 @@ class InfoCarousel extends Component {
                             PUBLICATION
                         </h1>
                         <p className="infoData">
-                            The proposal for an edited book is approved for the book series Algorithms for Intelligent Systems.The original papers presented in the conference, modified by authors as book chapters and under the special theme Intelligent Computing and Communication Systems will be published as book chapter in the edited volume.
+                            A proposal for publication of Conference Proceedings in Scopus indexed book series will be submitted to Springer Nature (in process)
 
-                            High quality extended papers of IC4E2020 will be invited for possible submission and publication (after another rigorous review) in the special/regular issues of the following journals:
-
+                            Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review (in Process).
                         </p>
                     </div>
                     <div className="col l4 m12 s12 infobox">
                         <h1 className="infoHeading font-bold">
                             KEYDATES
                         </h1>
-                        <p className="infoData">
-                            ➡ Initial Paper Submission: 30 June 2020
-                            ➡ Full paper submission deadline extended: 30 July 2020
-
-                            ➡ Decision Notification: 31 August 2020
-
-                            ➡ Final Submission: 15 September 2020
-
-                            ➡ Registration Deadline: 15 September 2020
-                        </p>
+                        <ul className="list-disc infoData">
+                            <li className="listDate"> Last date of paper submission: 05th February, 2021</li>
+                            <li className="listDate">Notification of paper acceptance: 20th March, 2021</li>
+                            <li className="listDate">Camera ready paper submission: 28th March, 2021</li>
+                            <li className="listDate">Last date of early bird registration: 15th April, 2021</li>
+                            <li className="listDate">Last date of registration: 28th April, 2021</li>
+                        </ul>
                     </div>
 
                 </div>

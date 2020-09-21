@@ -7,6 +7,7 @@ import {
 } from "react-router-dom";
 import Home from './Components/Home/index';
 import Committee from './Components/Committee/index';
+import Advisory from './Components/Committee/Advisory/index';
 import ContactUs from './Components/ContactUs/index';
 import KeyDates from './Components/Keydates/index';
 import KeyNote from './Components/Keynote/index';
@@ -26,7 +27,10 @@ function App() {
             <Route exact path='/committee'>
               <Committee />
             </Route>
-            <Route exact path='/keynote'>
+            <Route exact path="/advisory">
+              <Advisory />
+            </Route>
+            <Route exact path="/keynote">
               <KeyNote />
             </Route>
             <Route exact path='/dates'>

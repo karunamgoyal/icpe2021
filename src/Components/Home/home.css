@@ -35,12 +35,16 @@
 .infoData{
     font-size: 20px;
     color: rgba(2,0,36,1);
+    margin-left: 14px;
 }
 .infoouter{
     margin-top: 10vh;
     margin-left: 8vw;
     margin-right: 8vw;
     display: flex;
+}
+.listDate{
+    list-style-type: disc !important;
 }
 
 .partnerHeading{
@@ -54,6 +58,7 @@
     margin-left: 5px;
     width: 30vw;
     padding: 20px;
+    padding-bottom: 6vh;
     background-color: rgba(0,212,255);
 }
 

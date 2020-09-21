@@ -62,7 +62,7 @@ class Committee extends Component {
                     </div>
 
                 </div>
-                <div className="h-64">
+                <div className="h-64 commfooter">
                 </div>
             </>
         );

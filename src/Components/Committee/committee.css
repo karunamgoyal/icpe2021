@@ -1,6 +1,5 @@
 .committeeaddfilter{
-   background-image:linear-gradient(to bottom, rgba(108,57,15,0.75) 3%, rgba(148,88,24,0.75) 28%, rgba(120,70,9,0.75) 46%, rgba(224,182,25,0.75) 79%, rgba(190,181,4,0.75) 100%),
-   url('images/image.jpg');
+   background-image:linear-gradient(to bottom, rgba(108,57,15,0.85) 3%, rgba(148,88,24,1) 28%, rgba(120,70,9,0.8) 46%, rgba(224,182,25,1) 79%, rgba(190,181,4,1) 100%);
    /* background-color: black; */
 }
 
@@ -16,6 +15,11 @@
 
 }
 
+.commfooter{
+    background-color: rgba(190,181,4,1) ;
+    margin-top: 10vh;
+
+}
 .ChiefPatron{
     align-items: center;
     width: 100vw;
