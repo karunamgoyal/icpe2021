@@ -4,6 +4,7 @@ import "./committee.css";
 import 'materialize-css';
 import { Carousel} from "react-materialize";
 import Card from "./cards.js";
+import avatar from "../Images/akumar.png"
 class Committee extends Component {
     render() {
         return (
@@ -59,7 +60,7 @@ class Committee extends Component {
                     <div className="ChiefPatron">
                         <h1 className="committeeHeading font-bold text-center">ORGANIZING SECRETARY</h1>
                         <div className="cardOuter">
-                            <Card className="cardInner" src={"https://nitkkr.ac.in/admin/member_images/akumar.png"} name="Dr. Arvind Kumar" designation="Associate Prof. ECE Department, NIT, Kurukshetra" />
+                            <Card className="cardInner" src={avatar} name="Dr. Arvind Kumar" designation="Associate Prof. ECE Department, NIT, Kurukshetra" />
                         </div>
                     </div>
                     <div className="organizingSecretary">
