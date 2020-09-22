@@ -12,7 +12,12 @@ import ContactUs from './Components/ContactUs/index';
 import KeyDates from './Components/Keydates/index';
 import KeyNote from './Components/Keynote/index';
 import Authors from './Components/Authors/index';
+<<<<<<< HEAD
 import Registration from "./Components/Authors/Registration/index";
+=======
+import Registration from './Components/Authors/Registration/index';
+import Navbar from "./Components/Navbar/index";
+>>>>>>> feat: registration page added
 function App() {
   return (
     <div className="App">
@@ -25,7 +30,14 @@ function App() {
             <Route exact path='/authors'>
               <Authors />
             </Route>
+<<<<<<< HEAD
             <Route exact path='/committee'>
+=======
+            <Route exact path="/registration">
+              <Registration />
+            </Route>
+            <Route exact path="/committee">
+>>>>>>> feat: registration page added
               <Committee />
             </Route>
             <Route exact path="/advisory">
