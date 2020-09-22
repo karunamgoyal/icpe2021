@@ -13,7 +13,7 @@ class Navbar extends Component {
                 brand={<a className="brand-logo brand-margin" href='/'><img className="logo-size-nit" src={Logo} alt="NITKKRLOGO"/></a>}
                 id="mobile-nav"
                 fixed={true}
-                menuIcon={<MenuIcon color="secondary" />}
+                menuIcon={<MenuIcon color="action" />}
                 options={{
                     draggable: true,
                     edge: 'left',
