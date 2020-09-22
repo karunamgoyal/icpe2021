@@ -4,7 +4,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Footer } from 'react-materialize';
 import Home from './Components/Home/index';
 import Committee from './Components/Committee/index';
 import Advisory from './Components/Committee/Advisory/index';

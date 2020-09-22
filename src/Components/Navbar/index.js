@@ -3,7 +3,7 @@ import 'materialize-css';
 import { Navbar as Navigation, NavItem, Dropdown} from "react-materialize";
 import MenuIcon from '@material-ui/icons/Menu';
 import DropIcon from '@material-ui/icons/ArrowDropDown';
-import Logo from './logos/combined3.png';
+import Logo from './logos/nitkkr1.png';
 import "./index.css"
 class Navbar extends Component {
     render() {

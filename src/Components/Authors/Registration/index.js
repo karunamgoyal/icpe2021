@@ -21,7 +21,7 @@ class Registration extends Component {
                     </div>
                 </Carousel>
 
-                <Container className="center">
+                <Container className="center container-1">
                     <h4>Registration details are as follows:</h4>
                     <h5>Conference Registration Fee:</h5>
                     <Table
@@ -64,7 +64,7 @@ class Registration extends Component {
                 from India and 100 USD for International participants.</h6>
 
                 </Container>
-                <Container className="center">
+                <Container className="center container-1">
                     <h5>Instruction for Registration:</h5>
                     <div className="text-left mx-8">
                         <p className="listhead">Please ensure the following points before submitting the camera-ready paper:</p>
