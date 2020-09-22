@@ -1,15 +1,16 @@
 .logo-size-nit{
-    height: 7.5vh;   
+    vertical-align: middle;
+    max-height: 72px!important;
+    padding: 10px 0!important; 
 }
 .brand-margin{
     margin-left:2%;
-    margin-top: 2px;
 }
 
 .organizingLink{
     color: black !important;
 }
-@media only screen and (max-width: 650px) {
+/* @media only screen and (max-width: 650px) {
     .logo-size-nit{
         height: 6vh;   
     }
@@ -29,5 +30,5 @@
     .logo-size-nit{
         height: 5vh;   
     }
-}
+} */
 

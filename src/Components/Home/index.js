@@ -57,7 +57,7 @@ class Home extends Component {
                     <InfoCarousel />
                 </div>
                 <div className="map">
-                    <iframe className="mapframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1166&amp;height=578&amp;hl=en&amp;q=National%20Institute%20of%20Technology,%20Kurukshetra%20kurukshetra+(National%20Institute%20of%20Technology,%20Kurukshetra)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=fdf226e91b73c9972541d5db6f957e965e925895'></script>
+                    <iframe title="NIT MAP" className="mapframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1166&amp;height=578&amp;hl=en&amp;q=National%20Institute%20of%20Technology,%20Kurukshetra%20kurukshetra+(National%20Institute%20of%20Technology,%20Kurukshetra)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=fdf226e91b73c9972541d5db6f957e965e925895'></script>
                 </div>
                 <div className="w-screen partners ">
                 </div>

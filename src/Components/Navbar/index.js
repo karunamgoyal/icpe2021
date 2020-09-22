@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'materialize-css';
-import { Navbar as Navigation, NavItem, Icon, Dropdown, Divider } from "react-materialize";
+import { Navbar as Navigation, NavItem, Dropdown} from "react-materialize";
 import MenuIcon from '@material-ui/icons/Menu';
 import DropIcon from '@material-ui/icons/ArrowDropDown';
 import Logo from './logos/combined3.png';
@@ -10,7 +10,7 @@ class Navbar extends Component {
         return (
             <Navigation className="white"
                 alignLinks="right"
-                brand={<a className="brand-logo brand-margin" href='/'><img className="logo-size-nit" src={Logo} /></a>}
+                brand={<a className="brand-logo brand-margin" href='/'><img className="logo-size-nit" src={Logo} alt="NITKKRLOGO"/></a>}
                 id="mobile-nav"
                 fixed={true}
                 menuIcon={<MenuIcon color="secondary" />}

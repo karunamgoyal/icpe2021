@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../Navbar/index';
 import 'materialize-css';
-import { Carousel,Row,Card,Col,Icon,CardTitle } from "react-materialize";
+import { Carousel} from "react-materialize";
 import './contactus.css'
 class ContactUs extends Component {
     render() {

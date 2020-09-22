@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../Navbar/index';
 import "./committee.css";
 import 'materialize-css';
-import { Carousel, Container } from "react-materialize";
+import { Carousel} from "react-materialize";
 import Card from "./cards.js";
 class Committee extends Component {
     render() {

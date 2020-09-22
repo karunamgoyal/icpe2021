@@ -2,9 +2,9 @@ import React from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
+import { Footer } from 'react-materialize';
 import Home from './Components/Home/index';
 import Committee from './Components/Committee/index';
 import Advisory from './Components/Committee/Advisory/index';
@@ -50,6 +50,9 @@ function App() {
           </Switch>
         </Router>
       </div>
+      <div class="footer-copyright center black white-text">
+            © 2020-21 Copyright ICCWC-2021
+          </div>
     </div>
   );
 }
