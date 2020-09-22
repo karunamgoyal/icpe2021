@@ -51,8 +51,6 @@ class Home extends Component {
                         The conference is concerned with the application of the latest computational technology to all aspects of Electronics Engineering and Wireless Communications. Computational technology encompasses both the latest hardware and software developments as well as algorithmic and theoretical developments. The conference is concerned with both theoretical, mathematical and scientific developments as well as applications of established technology to new domains. The purpose of holding this conference will aim at bringing together from around the world academics, researchers and practitioners to review recent achievements in the advancement of knowledge and understanding in these areas, share the latest developments, and address the challenges that the present and the future pose.
                         <br />
                         <br />
-
-                        Considering the situation arising out of the Covid-19 pandemic,the organising committee of the IC4E 2020 has decided to make the conference fully virtual. The decision aims to eliminate uncertainty and ensure the safety and health of the stakeholders in the event. Though registration fee is reduced, the event will be as comprehensive and committed to its goal as in- physical space events.
                     </p>
                 </div>
                 <div>

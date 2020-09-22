@@ -36,6 +36,9 @@
     width: 100vw;
     margin-top: 10vh;
 }
+.rulelist{
+    font-size: 30px;
+}
 
 @media only screen and (max-width: 650px) {
     .regeventHeading{

@@ -23,9 +23,9 @@
     height: 60vh;
 }
 .cardimage{
-    background-size: 100% 100%;
+    border-radius: 50%;
+    background-size: 100% 100% !important;
 }
-
 .cardInner{
     max-width: 100vw !important;
 
@@ -37,17 +37,16 @@
 
 }
 .ChiefPatron{
-    align-items: center;
     width: 100vw;
-    padding-left: 30vw;
-    padding-right: 30vw;
 }
 
 .cardOuter{
-    width: 40vw;
+    width: 20vw;
+    margin-left: 40vw;
+    margin-right: 40vw;
 }
 .committeeHeading{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .avatarImage{
@@ -62,28 +61,30 @@
 
 .organizingCommittee{
     width: 100vw;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
 
 .organizingSecretary{
     width: 100vw;
-    padding-left: 20vw;
-    padding-right: 20vw;
+    padding-left: 15vw;
+    padding-right: 25vw;
 }
 .chairPerson{
     display: flex;
 }
 .cardChair{
-    width: 29vw;
-    margin-right: 1vw;
+    width: 20vw;
+    margin-left: 10vw;
 }
 @media only screen and (max-width: 900px) {
     .commeventHeading{
         font-size: 30px;
     }
+    .cardChair{
+        width: 80vw;
+        margin-left: 10vw;
+    }
     .cardOuter{
-        width: 60vw;
+        width: 80vw;
     }
     .committeeHeading{
         font-size: 40px;
@@ -119,6 +120,7 @@
     }
     .cardChair{
         width: 80vw;
+        margin-left: 0;
         margin-bottom: 5vh;
     }
     .committeeHeading{
@@ -126,6 +128,7 @@
     }
     .cardOuter{
         width: 80vw; 
+        margin-left: 0;
     }
     .ChiefPatron{
         padding-left: 10vw;

@@ -27,26 +27,24 @@ class KeyNote extends Component {
                     <div className="keynoteRow">
                         <div className="keynoteCard">
                             <CardKeynote
-                                src={"https://ic4e2020.org/img/amit.jpg"}
-                                title={"Dr. Amit Bhardwaj"}
-                                designation={` Assistant Professor
-                                        Department of Electrical Engineering
-                                        Indian Institute of Technology Jodhpur
-                                        Jodhpur, Rajasthan, India
-                                        Webpage: http://home.iitj.ac.in/~amitb/`}
-                                description={`Amit Bhardwaj received his B.Tech degree in Electronics and Communication Engineering (ECE) in 2009 from YMCAIE Faridabad, Haryana, India, and master of engineering (M.E) degree in ECE in 2011 from Delhi College of Engineering, Delhi, India. In July 2011, he joined the department of Electrical Engineering (EE) at Indian Institute of Technology Bombay, Mumbai, India to pursue his Ph.D. degree, and got the degree in June 2016. From June 2016 - January 2017, he was a research associate in the department of Electrical Engineering at IIT Bombay, Mumbai. From February 2017- December 2017, he was an Alexander von Humboldt post-doctoral fellow at the Chair of Media Technology, Technical University of Munich, Germany. From February 2018- August 2019, he was a post-doctoral researcher at the Haptics and Virtual Reality (HVR) lab, Pohang University of Science and Technology (POSTECH), South Korea. Since September 2019, he has been an assistant professor at IIT Jodhpur in the department of Electrical Engineering. He is a co-author of the book "Kinesthetic Perception - A Machine Learning Approach" published by Springer(link). His research interests include data-driven haptic modeling and rendering, haptic perception, haptic data communication, signal processing, and applications of machine learning.`}
+                                src={"https://i1.rgstatic.net/ii/profile.image/655677546573824-1533337117514_Q128/Jaume_Anguera2.jpg"}
+                                title={"Dr. Jaume Anguera"}
+                                designation={`Universitat Ramon Llull
+                                Barcelona, Spain`}
                             />
                         </div>
                         <div className="keynoteCard">
                             <CardKeynote
                                 src={"https://ic4e2020.org/img/amit.jpg"}
-                                title={"Dr. Amit Bhardwaj"}
-                                designation={` Assistant Professor
-                                        Department of Electrical Engineering
-                                        Indian Institute of Technology Jodhpur
-                                        Jodhpur, Rajasthan, India
-                                        Webpage: http://home.iitj.ac.in/~amitb/`}
-                                description={`Amit Bhardwaj received his B.Tech degree in Electronics and Communication Engineering (ECE) in 2009 from YMCAIE Faridabad, Haryana, India, and master of engineering (M.E) degree in ECE in 2011 from Delhi College of Engineering, Delhi, India. In July 2011, he joined the department of Electrical Engineering (EE) at Indian Institute of Technology Bombay, Mumbai, India to pursue his Ph.D. degree, and got the degree in June 2016. From June 2016 - January 2017, he was a research associate in the department of Electrical Engineering at IIT Bombay, Mumbai. From February 2017- December 2017, he was an Alexander von Humboldt post-doctoral fellow at the Chair of Media Technology, Technical University of Munich, Germany. From February 2018- August 2019, he was a post-doctoral researcher at the Haptics and Virtual Reality (HVR) lab, Pohang University of Science and Technology (POSTECH), South Korea. Since September 2019, he has been an assistant professor at IIT Jodhpur in the department of Electrical Engineering. He is a co-author of the book "Kinesthetic Perception - A Machine Learning Approach" published by Springer(link). His research interests include data-driven haptic modeling and rendering, haptic perception, haptic data communication, signal processing, and applications of machine learning.`}
+                                title={"Prof. Chintha Tellambur"}
+                                designation={"University of Alberta, Canada"}
+                            />
+                        </div>
+                        <div className="keynoteCard">
+                            <CardKeynote
+                                src={"https://ic4e2020.org/img/amit.jpg"}
+                                title={"Dr. Hemendra Pandey"}
+                                designation={"Variable Enegry Cyclotron Center, Kolkata"}
                             />
                         </div>
                     </div>
@@ -54,30 +52,20 @@ class KeyNote extends Component {
                         <div className="keynoteCard">
                             <CardKeynote
                                 src={"https://ic4e2020.org/img/amit.jpg"}
-                                title={"Dr. Amit Bhardwaj"}
-                                designation={` Assistant Professor
-                                        Department of Electrical Engineering
-                                        Indian Institute of Technology Jodhpur
-                                        Jodhpur, Rajasthan, India
-                                        Webpage: http://home.iitj.ac.in/~amitb/`}
-                                description={`Amit Bhardwaj received his B.Tech degree in Electronics and Communication Engineering (ECE) in 2009 from YMCAIE Faridabad, Haryana, India, and master of engineering (M.E) degree in ECE in 2011 from Delhi College of Engineering, Delhi, India. In July 2011, he joined the department of Electrical Engineering (EE) at Indian Institute of Technology Bombay, Mumbai, India to pursue his Ph.D. degree, and got the degree in June 2016. From June 2016 - January 2017, he was a research associate in the department of Electrical Engineering at IIT Bombay, Mumbai. From February 2017- December 2017, he was an Alexander von Humboldt post-doctoral fellow at the Chair of Media Technology, Technical University of Munich, Germany. From February 2018- August 2019, he was a post-doctoral researcher at the Haptics and Virtual Reality (HVR) lab, Pohang University of Science and Technology (POSTECH), South Korea. Since September 2019, he has been an assistant professor at IIT Jodhpur in the department of Electrical Engineering. He is a co-author of the book "Kinesthetic Perception - A Machine Learning Approach" published by Springer(link). His research interests include data-driven haptic modeling and rendering, haptic perception, haptic data communication, signal processing, and applications of machine learning.`}
+                                title={"Dr. Jaume Anguera"}
+                                designation={"Universitat Ramon Liull Barcelona, Spain"}
                             />
                         </div>
                         <div className="keynoteCard">
                             <CardKeynote
                                 src={"https://ic4e2020.org/img/amit.jpg"}
-                                title={"Dr. Amit Bhardwaj"}
-                                designation={` Assistant Professor
-                                        Department of Electrical Engineering
-                                        Indian Institute of Technology Jodhpur
-                                        Jodhpur, Rajasthan, India
-                                        Webpage: http://home.iitj.ac.in/~amitb/`}
-                                description={`Amit Bhardwaj received his B.Tech degree in Electronics and Communication Engineering (ECE) in 2009 from YMCAIE Faridabad, Haryana, India, and master of engineering (M.E) degree in ECE in 2011 from Delhi College of Engineering, Delhi, India. In July 2011, he joined the department of Electrical Engineering (EE) at Indian Institute of Technology Bombay, Mumbai, India to pursue his Ph.D. degree, and got the degree in June 2016. From June 2016 - January 2017, he was a research associate in the department of Electrical Engineering at IIT Bombay, Mumbai. From February 2017- December 2017, he was an Alexander von Humboldt post-doctoral fellow at the Chair of Media Technology, Technical University of Munich, Germany. From February 2018- August 2019, he was a post-doctoral researcher at the Haptics and Virtual Reality (HVR) lab, Pohang University of Science and Technology (POSTECH), South Korea. Since September 2019, he has been an assistant professor at IIT Jodhpur in the department of Electrical Engineering. He is a co-author of the book "Kinesthetic Perception - A Machine Learning Approach" published by Springer(link). His research interests include data-driven haptic modeling and rendering, haptic perception, haptic data communication, signal processing, and applications of machine learning.`}
+                                title={"Prof. K P Ray"}
+                                designation={"DIAT (DRDO), Pune"}
                             />
                         </div>
                     </div>
                 </div>
-                <div className="h-64">
+                <div className="keyfooter">
                 </div>
             </div>
         );

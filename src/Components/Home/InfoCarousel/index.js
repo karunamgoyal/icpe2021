@@ -12,7 +12,8 @@ class InfoCarousel extends Component {
                         </h1>
                         <p className="infoData">
                             Paper submissions are invited in the area of Electronics and Wireless Communication Systems.
-
+                            <br/>
+                            <br/>
                             Easy chair link for paper submission
                         </p>
                     </div>
@@ -22,7 +23,7 @@ class InfoCarousel extends Component {
                         </h1>
                         <p className="infoData">
                             A proposal for publication of Conference Proceedings in Scopus indexed book series will be submitted to Springer Nature (in process)
-
+                            <br/><br/>
                             Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review (in Process).
                         </p>
                     </div>
