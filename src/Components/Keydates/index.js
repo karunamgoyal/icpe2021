@@ -20,7 +20,7 @@ class KeyDates extends Component {
                         <h1 className="font-bold font-setting">KEY DATES</h1>
                     </div>
                 </Carousel>
-                <Container>
+                <Container className="container-1">
                 <Table
                     centered={true}
                     hoverable={true}
