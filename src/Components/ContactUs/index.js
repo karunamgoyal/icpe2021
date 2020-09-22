@@ -20,8 +20,8 @@ class ContactUs extends Component {
                         <h1 className="font-bold font-setting">CONTACT US</h1>
                     </div>
                 </Carousel>
-                <div className="container center hoverable">
-                <h4 className="bold">Any Doubts We are All Ears</h4>
+                <div className="container container-1 center hoverable">
+                <h4 className="bold">Please Contact Us in Case of any Doubt</h4>
                 <div className="contact">
                     <div className="name">Dr. N. P. Singh</div>
                     <div className="desig">Associate Prof, ECE Dept, NIT Kurukshetra</div>

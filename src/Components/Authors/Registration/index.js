@@ -64,37 +64,7 @@ class Registration extends Component {
                 from India and 100 USD for International participants.</h6>
 
                 </Container>
-                <Container className="center container-1">
-                    <h5>Instruction for Registration:</h5>
-                    <div className="text-left mx-8">
-                        <p className="listhead">Please ensure the following points before submitting the camera-ready paper:</p>
-                        <br />
-                        <ol className="rulelist">
-                            <li>
-                                Modify the paper as per the reviewer’s comments. Also, prepare the author’s response to the reviewer’s comments.
-                        </li>
-                            <li>
-                                Prepare the Camera Ready Copy of the manuscript strictly in AIS, Springer format.Please refer to the link
-                        </li>
-                            <li>
-                                The maximum limit of the pages is 8.
-                        </li>
-                            <li>
-                                The last date of registration is <span className="redColor">05 Feb 2021</span>. For the process of payment of registration fees using SBI collect, please click the             link.
-                        </li>
-                            <li>
-                                After the payment of registration fees through SBI collect, please fill the registration form
-                        </li>
-                            <li>
-                                At least one author need to register and present the paper. Without registration and oral presentation, paper will not be
-                                included for publication.
-                        </li>
-                            <li>
-                                After registration, please send the following file to <span className="redColor">ic4e2020@gmail.com </span>preferably in zip file
-                    </li>
-                        </ol>
-                    </div>
-                </Container>
+                
                 <div className="regfooter">
                 </div>
             </div>

@@ -5,8 +5,9 @@ export default function RecipeReviewCard(props) {
     return (
         <Card
             className="innercard"
-            header={<CardTitle image={props.src}>{props.name}</CardTitle>}
+            header={<CardTitle image={props.src}></CardTitle>}
         >
+            <div className="card-title-update">{props.name} <br/></div>
             {props.designation}
         </Card>
     );

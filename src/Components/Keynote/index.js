@@ -54,7 +54,7 @@ class KeyNote extends Component {
                             <CardKeynote
                                 src={"https://scholar.googleusercontent.com/citations?view_op=medium_photo&user=s9wU0Q8AAAAJ&citpid=4"}
                                 title={"Prof. K P Ray"}
-                                designation={"DIAT (DRDO), Pune"}
+                                designation={"Defence Institute of Advanced Technology(DIAT), Pune"}
                             />
                         </div>
                     </div>

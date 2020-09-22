@@ -68,7 +68,7 @@ class Home extends Component {
                         <tbody>
                             <tr>
                                 <td className="centered">
-                                    <img className="springer-partner" alt="Springer" src={Springer}/><br/>Potential Partner
+                                    <img className="springer-partner" alt="Springer" src={Springer}/>(In Process)
                                 </td>
                             </tr>
                         </tbody>
