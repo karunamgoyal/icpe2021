@@ -74,7 +74,7 @@ class Navbar extends Component {
                     <a className="organizingLink" href="/authors">TRACKS</a>
                     <a className="organizingLink" href="/registration">REGISTRATION</a>
                 </Dropdown>
-                <NavItem className="black-text" href="/dates">KEY DATES</NavItem>
+                <NavItem className="black-text" href="/dates">IMPORTANT DATES</NavItem>
                 <NavItem className="black-text" href="/contactus">CONTACT US</NavItem>
             </Navigation>
         );

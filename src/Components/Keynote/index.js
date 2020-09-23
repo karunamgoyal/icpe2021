@@ -19,7 +19,7 @@ class KeyNote extends Component {
                     }}
                 >
                     <div className="keynoteaddfilter">
-                        <h1 className="font-bold font-setting">KEYNOTE</h1>
+                        <h1 className="font-bold font-setting">KEYNOTE SPEAKERS</h1>
                     </div>
                 </Carousel>
                 <h3 className="center">Keynote Speakers</h3>

@@ -8,7 +8,9 @@ export default function RecipeReviewCard(props) {
             header={<CardTitle image={props.src}></CardTitle>}
         >
             <div className="card-title-update">{props.name} <br/></div>
-            {props.designation}
+            {props.designation}<br/>
+            {props.department}<br/>
+            {props.institute}
         </Card>
     );
 }

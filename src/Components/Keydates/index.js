@@ -17,7 +17,7 @@ class KeyDates extends Component {
                     }}
                 >
                     <div className="addkey">
-                        <h1 className="font-bold font-setting">KEY DATES</h1>
+                        <h1 className="font-bold font-setting">IMPORTANT DATES</h1>
                     </div>
                 </Carousel>
                 <Container className="container-1">
