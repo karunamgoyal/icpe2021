@@ -22,7 +22,7 @@ class KeyNote extends Component {
                         <h1 className="font-bold font-setting">KEYNOTE SPEAKERS</h1>
                     </div>
                 </Carousel>
-                <h3 className="center">Keynote Speakers</h3>
+                
                 <div className="container container-2">
                     <Row>
                         <Col

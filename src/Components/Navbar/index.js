@@ -50,7 +50,7 @@ class Navbar extends Component {
                     <a className="organizingLink" href="/program">TECHNICAL PROGRAM COMMITTEE</a>
                     <a className="organizingLink" href="/committee">ORGANIZING COMMITTEE</a>
                 </Dropdown>
-                <NavItem className="black-text" href="/keynote">KEYNOTE</NavItem>
+                <NavItem className="black-text" href="/keynote">KEYNOTE SPEAKERS</NavItem>
                 <Dropdown
                     id="Dropdown_7"
                     options={{
