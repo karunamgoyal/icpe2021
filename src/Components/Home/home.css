@@ -7,20 +7,20 @@
     padding-right: 10vw;
 }
 .eventName{
-    font-size: 40px;
+    font-size: 5vh;
 }
 .eventHeading{
-    font-size: 70px;
+    font-size: 8vh;
 }
 
 .homelocation{
-    font-size: 20px;
+    font-size: 3vh;
     margin-top: 10vh;
 }
 .aboutData{
     margin-left: 10vw;
     margin-right: 10vw;
-    font-size: 20px;
+    font-size: 3vh;
 }
 
 .aboutHeading{
@@ -93,10 +93,10 @@
         margin-bottom: 10px;
     }
     .infoData{
-        font-size: 25px;
+        font-size: 4vh;
     }
     .infoHeading{
-        font-size: 40px;
+        font-size: 5vh;
     }
     .infoouter{
         display: block;
@@ -105,19 +105,19 @@
 
 @media only screen and (max-width: 650px) {
     .eventHeading{
-        font-size: 40px;
+        font-size: 5vh;
     }
     .mapframe{
         height: 350px;
     }
     .eventName{
-        font-size: 25px;
+        font-size: 3vh;
     }
     .infoData{
-        font-size: 15px;
+        font-size: 2vh;
     }
     .infoHeading{
-        font-size: 30px;
+        font-size: 3vh;
     }
     .homeBlock{
         margin-left: 5vw;
@@ -134,6 +134,37 @@
     }
   }
   
+  
+@media only screen and (max-width: 320px) {
+    .eventHeading{
+        font-size: 30px;
+    }
+    .mapframe{
+        height: 300px;
+    }
+    .eventName{
+        font-size: 15px;
+    }
+    .infoData{
+        font-size: 10px;
+    }
+    .infoHeading{
+        font-size: 20px;
+    }
+    .homeBlock{
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+    .homelocation{
+        font-size: 16px;
+    }
+    .aboutHeading{
+        font-size: 30px;
+    }
+    .aboutData{
+        font-size: 15px;
+    }
+  }
   
   
   body::-webkit-scrollbar {

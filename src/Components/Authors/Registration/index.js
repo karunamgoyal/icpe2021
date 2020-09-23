@@ -34,7 +34,7 @@ class Registration extends Component {
                             <tr>
                                 <th data-field="event">Delegates</th>
                                 <th data-field="date">Indian (INR)</th>
-                                <th data-field="date">Internation (USD)</th>
+                                <th data-field="date">International (USD)</th>
                             </tr>
                         </thead>
                         <tbody>

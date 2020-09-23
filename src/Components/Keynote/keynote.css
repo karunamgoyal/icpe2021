@@ -48,17 +48,14 @@
    height: 100%;
    width: 100%;
  }
-
+.container-2{
+  margin-top: 10vh;
+}
  .keynoteRow{
    margin-top: 10vh; 
    display: flex;
  }
 
- .keynoteCard{
-   width: 20vw;
-   margin-left: 10vw;
-   height: 60vh;
- }
 
  .KeynoteHeading{
    height:100vh;
@@ -81,21 +78,11 @@
 } 
 
 @media only screen and (max-width: 950px) {
-  .keynoteCard{
-    margin-left: 10vw;
-    width: 35vw;
-  }
+  
 }
 
 @media only screen and (max-width: 650px) {
-  .keynoteRow{
-    display: block;
-  }
-  .keynoteCard{
-    margin-left: 15vw;
-    margin-bottom: 7vh;
-    width: 70vw;
-  }
+ 
 }
    body::-webkit-scrollbar {
      display: none;

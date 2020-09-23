@@ -6,8 +6,8 @@ class CardKeynote extends Component {
     render() {
         return (
             <Card
-                className="cardDesign text-bold"
-                header={<CardTitle className="keynoteCardImage" image={this.props.src} reveal waves="light" />}
+                className="text-bold"
+                header={<CardTitle image={this.props.src} />}
                 title={this.props.title}
             >
                 <p className="text-xl">
