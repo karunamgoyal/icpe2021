@@ -62,7 +62,7 @@ class Registration extends Component {
                     </Table>
                     <h6>One additional paper per author/presenter shall be charged 3000 INR for participants
                 from India and 100 USD for International participants.</h6>
-
+                    <h6> Authors are requested to submit full length papers online through <a href="https://easychair.org/conferences/?conf=iccwc2021"> Easy Chair Link </a> </h6>
                 </Container>
                 
                 <div className="regfooter">
