@@ -49,6 +49,8 @@ class Program extends Component {
                             <li className="advitem">  Dr. Pradeep Kumar, University of KwaZulu-Natal, South Africa</li>
                             <li className="advitem">  Dr. Khaled Mohamad Almustafa, Prince Sultan University, Saudi Arabia</li>
                             <li className="advitem">  Dr. Waralak V. Siricharoen, Silpakorn University, Thailand</li>
+                            <li className="advitem">  Dr. Sanjeev Tyagi, IET MJP Rohilkhand University, Bareilly</li>
+                            <li className="advitem">  Dr. S. S. Saini, CSIR-CSIO Chandigarh</li>
                         </ul>
                     </div>
                 </div>
