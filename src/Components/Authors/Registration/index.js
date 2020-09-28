@@ -63,6 +63,18 @@ class Registration extends Component {
                     <h6>One additional paper per author/presenter shall be charged 3000 INR for participants
                 from India and 100 USD for International participants.</h6>
                     <h6> Authors are requested to submit full length papers online through <a href="https://easychair.org/conferences/?conf=iccwc2021"> Easy Chair Link </a> </h6>
+                    <h5>Paper Submission Guidlines</h5>
+                            Papers must be submitted electronically in a single-column springer format (8 to max 10 pages), <a href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">templates</a> ).
+                            <br/>Submitted papers will undergo a double-blind peer-review process, coordinated by the Technical Program Committee.
+                            <br/>Authors should consult <a href="ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf">Springer’s authors’ guidelines</a> and use their proceedings templates, either for <a href="ftp://ftp.springernature.com/cs-proceeding/svproc/templates/ProcSci_TeX.zip">LaTeX</a> or for <a href="ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip">Word</a>, for the preparation of their papers.
+                            <br/>Springer encourages authors to include their ORCIDs in their papers.<br/><br/>
+
+
+                            Note for full paper submissions:
+                            <ul>
+                                <li>All papers must be submitted electronically in PDF and DOC format in the Springer style.</li>
+                                <li>Although we accept submissions in the form of PDF, PS, and DOC/RTF files, you are strongly encouraged to generate a PDF version for your paper before submitting.</li>    
+                            </ul>    
                 </Container>
                 
                 <div className="regfooter">

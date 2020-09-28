@@ -22,18 +22,21 @@
     margin-right: 10vw;
     font-size: 3vh;
 }
-
+#infoc{
+    font-weight: bold;
+    color: white;
+}
 .aboutHeading{
     margin-left: 10vw;
 }
 .infoHeading{
-    font-size: 40px;
+    font-size: 35px;
     align-content: center;
     color: rgba(2,0,36,1);
 }
 
 .infoData{
-    font-size: 20px;
+    font-size: 17px;
     color: rgba(2,0,36,1);
     margin-left: 14px;
 }

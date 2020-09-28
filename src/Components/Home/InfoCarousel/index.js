@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "../home.css";
+import 'materialize-css';
+import { Button } from 'react-materialize';
 class InfoCarousel extends Component {
     render() {
         return (
@@ -12,9 +14,28 @@ class InfoCarousel extends Component {
                         </h1>
                         <p className="infoData">
                             Paper submissions are invited in the area of Electronics and Wireless Communication Systems.
-                            <br/>
-                            <br/>
-                            Easy chair link for paper submission
+                            <br />
+                            <br />
+                            Easy chair link for paper submission <Button
+                            href="https://easychair.org/conferences/?conf=iccwc2021"
+                            node="a"
+                            waves="purple"
+                            className="black pulse"
+                          >
+                            Click Here
+                          </Button><br />
+                            <h5>Paper Submission Guidlines</h5>
+                            Papers must be submitted electronically in a single-column springer format (8 to max 10 pages), <a id="infoc" href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">templates</a> ).
+                            <br/>Submitted papers will undergo a double-blind peer-review process, coordinated by the Technical Program Committee.
+                            <br/>Authors should consult <a id="infoc" href="ftp://ftp.springernature.com/cs-proceeding/svproc/guidelines/Springer_Guidelines_for_Authors_of_Proceedings.pdf">Springer’s authors’ guidelines</a> and use their proceedings templates, either for <a id="infoc" href="ftp://ftp.springernature.com/cs-proceeding/svproc/templates/ProcSci_TeX.zip">LaTeX</a> or for <a id="infoc" href="ftp://ftp.springernature.com/cs-proceeding/llncs/word/splnproc1703.zip">Word</a>, for the preparation of their papers.
+                            <br/>Springer encourages authors to include their ORCIDs in their papers.<br/><br/>
+
+
+                            Note for full paper submissions:
+                            <ul>
+                                <li>All papers must be submitted electronically in PDF and DOC format in the Springer style.</li>
+                                <li>Although we accept submissions in the form of PDF, PS, and DOC/RTF files, you are strongly encouraged to generate a PDF version for your paper before submitting.</li>    
+                            </ul>
                         </p>
                     </div>
                     <div className="col l4 m6 s12 infobox">
@@ -23,7 +44,7 @@ class InfoCarousel extends Component {
                         </h1>
                         <p className="infoData">
                             A proposal for publication of Conference Proceedings in Scopus indexed book series will be submitted to Springer Nature (in process)
-                            <br/><br/>
+                            <br /><br />
                             Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review (in Process).
                         </p>
                     </div>
