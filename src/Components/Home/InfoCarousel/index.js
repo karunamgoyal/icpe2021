@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "../home.css";
 import 'materialize-css';
-import { Button } from 'react-materialize';
+//import { Button } from 'react-materialize';
 class InfoCarousel extends Component {
     render() {
         return (
@@ -16,14 +16,9 @@ class InfoCarousel extends Component {
                             Paper submissions are invited in the area of Electronics and Wireless Communication Systems.
                             <br />
                             <br />
-                            Easy chair link for paper submission <Button
+                            Easy chair link for paper submission <a
                             href="https://easychair.org/conferences/?conf=iccwc2021"
-                            node="a"
-                            waves="purple"
-                            className="black pulse"
-                          >
-                            Click Here
-                          </Button><br />
+                            className="black pulsate" id="textElement">https://easychair.org/conferences/?conf=iccwc2021</a><br />
                             <h5>Paper Submission Guidlines</h5>
                             Papers must be submitted electronically in a single-column springer format (8 to max 10 pages), <a id="infoc" href="https://www.springer.com/us/authors-editors/conference-proceedings/conference-proceedings-guidelines">templates</a> ).
                             <br/>Submitted papers will undergo a double-blind peer-review process, coordinated by the Technical Program Committee.

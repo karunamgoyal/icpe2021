@@ -1,6 +1,18 @@
 .addhome{
    background-image: linear-gradient(to bottom, rgba(2,0,36,0.85) 5%, rgba(4,9,10,0.85) 28%, rgba(5,19,46,0.85) 44%, rgba(10,45,63,0.85) 69%, rgba(0,212,255,0.85) 100%);
 }
+
+
+@keyframes textColorChange {
+    0% {color: #0000ff;}
+    50% {color: #00ff00;}
+    100% {color: #0000ff;}
+}
+/* Use @-webkit-keyframes for Safari/Chrome */
+
+#textElement {
+    animation: textColorChange 2s infinite;
+}
 .homeBlock{
     margin-top: 16vh;
     padding-left: 10vw;
