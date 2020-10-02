@@ -4,9 +4,9 @@
 
 
 @keyframes textColorChange {
-    0% {color: #0000ff;}
+    0% {color: #00f7ff;}
     50% {color: #00ff00;}
-    100% {color: #0000ff;}
+    100% {color: #00f7ff;}
 }
 /* Use @-webkit-keyframes for Safari/Chrome */
 
