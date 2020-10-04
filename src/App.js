@@ -7,6 +7,8 @@ import {
 import Home from './Components/Home/index';
 import Committee from './Components/Committee/index';
 import Advisory from './Components/Committee/Advisory/index';
+import Student from './Components/Committee/Student/index';
+import Local from './Components/Committee/Local/index';
 import Program from './Components/Committee/program/index';
 import ContactUs from './Components/ContactUs/index';
 import KeyDates from './Components/Keydates/index';
@@ -30,6 +32,12 @@ function App() {
             </Route>
             <Route exact path="/advisory">
               <Advisory />
+            </Route>
+            <Route exact path="/student">
+              <Student />
+            </Route>
+            <Route exact path="/local">
+              <Local />
             </Route>
             <Route exact path="/program">
               <Program />
