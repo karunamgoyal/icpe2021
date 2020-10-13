@@ -45,6 +45,7 @@ class Advisory extends Component {
                             <li className="advitem">   Prof. P K Singhal, MITS, Gwalior</li>
                             <li className="advitem">   Prof. D. P. Sharma, Manipal University Jaipur</li>
                             <li className="advitem">   Prof. Shree Prakash Singh, NSTU Delhi</li>
+                            <li className="advitem">   Prof. Brijendra Singh, Lucknow University</li>
                         </ul>
                     </div>
                 </div>
