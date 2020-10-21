@@ -38,9 +38,9 @@ class InfoCarousel extends Component {
                             PUBLICATION
                         </h1>
                         <p className="infoData">
-                            A proposal for publication of Conference Proceedings in Scopus indexed book series will be submitted to Springer Nature (in process)
+                        Proceedings of ICCWC 2021” will be published in scopus indexed book series: “Lecture Notes in Networks and Systems”.
                             <br /><br />
-                            Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review (in Process).
+                            The Editorial board has given approval for publishing best selected 60 papers (maximum) in the volume.
                         </p>
                     </div>
                     <div className="col l4 m12 s12 infobox">
