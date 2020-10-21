@@ -51,6 +51,20 @@ class Program extends Component {
                             <li className="advitem">  Dr. Waralak V. Siricharoen, Silpakorn University, Thailand</li>
                             <li className="advitem">  Dr. Sanjeev Tyagi, IET MJP Rohilkhand University, Bareilly</li>
                             <li className="advitem">  Dr. S. S. Saini, CSIR-CSIO Chandigarh</li>
+                            <li className="advitem"> Dr. Chitresh Nayak, Oriental Institute of Science and Technology, Bhopal </li>
+
+                            <li className="advitem"> Dr. Yogita, NIT Meghalaya</li>
+
+                            <li className="advitem"> Dr Ashwani Kumar Yadav, Amity University Rajasthan, Jaipur</li>
+
+                            <li className="advitem"> Mrs. Parul Pathak, JECRC University, Jaipur</li>
+
+                            <li className="advitem"> Dr. Vipin Pal, NIT Meghalaya </li>
+
+                            <li className="advitem"> Dr. Sandeep Kumar, NIT Surathkal </li>
+
+                            <li className="advitem"> Dr. Archek Praveen Kumar, Malla Reddy College of Engineering for Women, Hyderabad</li>
+                            <li className="advitem">Dr. Garima Saini, NITTTR Chandigarh</li>
                         </ul>
                     </div>
                 </div>
