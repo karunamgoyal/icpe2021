@@ -22,6 +22,7 @@ class ContactUs extends Component {
                 </Carousel>
                 <div className="container container-1 center hoverable">
                 <h4 className="bold">Please Contact Us in Case of any Doubt</h4>
+                <h5 className="bold">Email: iccwc.21@gmail.com</h5>
                 <div className="contact">
                     <div className="name">Dr. N. P. Singh</div>
                     <div className="desig">Associate Prof, ECE Dept, NIT Kurukshetra</div>

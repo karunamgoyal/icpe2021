@@ -46,6 +46,13 @@ class Home extends Component {
                     </div >
                 </div>
                 <div>
+                <marquee className="marq">
+                <ul>
+                    <li>Easy Chair Link for Registration &nbsp;  
+                    <a href="https://easychair.org/conferences/?conf=iccwc2021"
+                    className="black pulsate" id="textElement">https://easychair.org/conferences/?conf=iccwc2021</a></li>
+                </ul>
+                </marquee>
                     <h2 className="aboutHeading">
                         About ICCWC-2021
                     </h2>

@@ -13,6 +13,10 @@ import Program from './Components/Committee/program/index';
 import ContactUs from './Components/ContactUs/index';
 import KeyDates from './Components/Keydates/index';
 import KeyNote from './Components/Keynote/index';
+import AboutKkr from './Components/Gallery/AboutKKR/index';
+import Gallery from "./Components/Gallery/Gallery/index";
+import HowTo from "./Components/Gallery/HowtoReach/index";
+import NearBy from "./Components/Gallery/NearByPlaces/index";
 import Authors from './Components/Authors/index';
 import Registration from "./Components/Authors/Registration/index";
 function App() {
@@ -53,6 +57,18 @@ function App() {
             </Route>
             <Route exact path='/contactus'>
               <ContactUs />
+            </Route>
+            <Route exact path='/reach'>
+              <HowTo/>
+            </Route>
+            <Route exact path='/nearby'>
+              <NearBy />
+            </Route>
+            <Route exact path='/gallery'>
+              <Gallery />
+            </Route>
+            <Route exact path='/aboutkkr'>
+              <AboutKkr />
             </Route>
           </Switch>
         </Router>

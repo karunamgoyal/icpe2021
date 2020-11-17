@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import "../home.css";
 import 'materialize-css';
-//import { Button } from 'react-materialize';
+import { Table } from 'react-materialize';
+import Springer from '../../Images/lecture.jpg'
+
 class InfoCarousel extends Component {
     render() {
         return (
@@ -38,10 +40,20 @@ class InfoCarousel extends Component {
                             PUBLICATION
                         </h1>
                         <p className="infoData">
-                        Proceedings of ICCWC 2021” will be published in scopus indexed book series: “Lecture Notes in Networks and Systems”
+                        Proceedings of ICCWC 2021 will be published in scopus indexed book series: “Lecture Notes in Networks and Systems”
                             <br /><br />
                             Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review.
                         </p>
+                        <Table centered={true}
+                         className="container container-2">
+                        <tbody>
+                            <tr>
+                                <td className="centered">
+                                    <img alt="Springer-Book" src={Springer}/>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </Table>
                     </div>
                     <div className="col l4 m12 s12 infobox">
                         <h1 className="infoHeading font-bold">

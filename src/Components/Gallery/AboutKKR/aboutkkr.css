@@ -1,0 +1,91 @@
+.aboutkkrfilter{
+    background-image: linear-gradient(to bottom, rgb(135, 77, 162,0.5) 0%, rgb(196, 58, 48,0.5)100%),
+    url('../../Images/image2.jpg');
+   background-size: cover;
+   /* background-color: black; */
+}
+.font-setting{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 7.5vh;
+ }
+ thead{
+    background-color: rgb(6, 179, 179);
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.2rem;
+ }
+ tbody{
+    font-size: 1rem;
+ }
+.organizingHome{
+    height: 60vh;
+}
+
+.adveventHeading{
+    font-size: 60px;
+}
+.homeBlock{
+    margin-top: 20vh;
+}
+.kkrfooter{
+    background-color: #c43a30;
+    height: 20vh;
+    width: 100vw;
+    margin-top: 10vh;
+}
+.text-al{
+    margin: 16px;
+}
+.text-set{
+    font-weight: 500;
+    text-align: justify;
+    font-size: medium;
+}
+.advisoryBox{
+    margin-left: 10vw;
+}
+.advisoryHeading{
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.advList{
+    font-size: 20px;
+    margin-left: 30px;
+    list-style-type: disc !important;
+}
+
+.advitem{
+    margin-left: 10px;
+    list-style-type: disc !important;
+}
+@media only screen and (max-width: 650px) {
+    .font-setting{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        font-size: 6vh;
+     }
+    .adveventHeading{
+        font-size: 40px;
+    }
+    .advisoryHeading{
+        font-size: 25px;
+    }
+    .advList{
+        font-size: 15px;
+        font-weight: 500;
+        margin-left: 0;
+        margin-right: 10vw;
+    }
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }

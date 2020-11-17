@@ -1,5 +1,5 @@
 .addhome{
-   background-image: linear-gradient(to bottom, rgba(2,0,36,0.85) 5%, rgba(4,9,10,0.85) 28%, rgba(5,19,46,0.85) 44%, rgba(10,45,63,0.85) 69%, rgba(0,212,255,0.85) 100%);
+   background-image: linear-gradient(to bottom, rgba(2,0,36,0.50) 5%, rgba(4,9,10,0.50) 28%, rgba(5,19,46,0.50) 44%, rgba(10,45,63,0.50) 69%, rgba(0,212,255,0.50) 100%),url('../Images/header-bg.jpg');
 }
 
 
@@ -9,6 +9,11 @@
     100% {color: #00f7ff;}
 }
 /* Use @-webkit-keyframes for Safari/Chrome */
+.marq{
+    margin-top: 16px;
+    font-weight: bolder;
+    
+}
 
 #textElement {
     animation: textColorChange 2s infinite;

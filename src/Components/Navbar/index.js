@@ -77,11 +77,36 @@ class Navbar extends Component {
                     <a className="organizingLink" href="/authors">TRACKS</a>
                     <a className="organizingLink" href="/registration">REGISTRATION</a>
                 </Dropdown>
+                <Dropdown
+                    id="Dropdown_8"
+                    options={{
+                        alignment: 'left',
+                        autoTrigger: true,
+                        closeOnClick: true,
+                        constrainWidth: false,
+                        container: null,
+                        coverTrigger: false,
+                        hover: false,
+                        inDuration: 150,
+                        edge: 'bottom',
+                        onCloseEnd: null,
+                        onCloseStart: null,
+                        onOpenEnd: null,
+                        onOpenStart: null,
+                        outDuration: 250
+                    }}
+                    trigger={<a href="#!" className="text-black">GENERAL INFO{' '}<DropIcon /></a>}
+                >
+                    <a className="organizingLink" href="/reach">HOW TO REACH</a>
+                    <a className="organizingLink" href="/aboutkkr">ABOUT NIT KKR</a>
+                    <a className="organizingLink" href="/gallery">GALLERY</a>
+                                    </Dropdown>
                 <NavItem className="black-text" href="/dates">IMPORTANT DATES</NavItem>
                 <NavItem className="black-text" href="/contactus">CONTACT US</NavItem>
             </Navigation>
         );
     }
 }
+//<a className="organizingLink" href="/nearby">NEAR BY PLACES</a>
 
 export default Navbar;
