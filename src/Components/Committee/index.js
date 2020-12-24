@@ -48,7 +48,7 @@ class Committee extends Component {
                             s={12}
                             l={4}
                         >
-                            <Card src={"https://media-exp1.licdn.com/dms/image/C4E03AQFj3W80qUi23w/profile-displayphoto-shrink_200_200/0?e=1606348800&v=beta&t=NLfqlhbWdC6JZmb8IBu1GNvwvnrouL5I75iWtNsPEjs"} name="Dr. K. K. Sharma" designation="Professor" department="ECE Department" institute="MNIT Jaipur" />
+                            <Card src={"http://mnit.ac.in/PortalProfile/images/faculty/mnitjas060.png"} name="Dr. K. K. Sharma" designation="Professor" department="ECE Department" institute="MNIT Jaipur" />
                         </Col>
                         <Col
                             m={4}

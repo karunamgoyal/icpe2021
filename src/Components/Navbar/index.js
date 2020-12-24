@@ -100,6 +100,7 @@ class Navbar extends Component {
                     <a className="organizingLink" href="/reach">HOW TO REACH</a>
                     <a className="organizingLink" href="/aboutkkr">ABOUT NIT KKR</a>
                     <a className="organizingLink" href="/gallery">GALLERY</a>
+                    <a className="organizingLink" href="/nearby">NEAR BY PLACES</a>
                                     </Dropdown>
                 <NavItem className="black-text" href="/dates">IMPORTANT DATES</NavItem>
                 <NavItem className="black-text" href="/contactus">CONTACT US</NavItem>
