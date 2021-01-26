@@ -52,19 +52,57 @@ class Program extends Component {
                             <li className="advitem">  Dr. Sanjeev Tyagi, IET MJP Rohilkhand University, Bareilly</li>
                             <li className="advitem">  Dr. S. S. Saini, CSIR-CSIO Chandigarh</li>
                             <li className="advitem"> Dr. Chitresh Nayak, Oriental Institute of Science and Technology, Bhopal </li>
-
                             <li className="advitem"> Dr. Yogita, NIT Meghalaya</li>
-
                             <li className="advitem"> Dr Ashwani Kumar Yadav, Amity University Rajasthan, Jaipur</li>
-
                             <li className="advitem"> Mrs. Parul Pathak, JECRC University, Jaipur</li>
-
                             <li className="advitem"> Dr. Vipin Pal, NIT Meghalaya </li>
-
                             <li className="advitem"> Dr. Sandeep Kumar, NIT Surathkal </li>
-
                             <li className="advitem"> Dr. Archek Praveen Kumar, Malla Reddy College of Engineering for Women, Hyderabad</li>
                             <li className="advitem">Dr. Garima Saini, NITTTR Chandigarh</li>
+                            <li className="advitem">Prof. Asheesh K. Singh, MNNIT, Allahabad</li>  
+
+                            <li className="advitem">Prof. Manish Rai, IET MJPRU Bareilly</li>
+
+                            <li className="advitem">Dr. Balwinder Raj, NITTTR Chandigarh</li>
+
+                            <li className="advitem">Dr Ujjawal Verma, MIT, Manipal </li>
+
+                            <li className="advitem">Dr Tanweer, MIT, Manipal </li>
+
+                            <li className="advitem">Dr Shounak De, MIT, Manipal </li>
+
+                            <li className="advitem">Dr Vinod Kumar Joshi, MIT, Manipal </li> 
+
+                            <li className="advitem">Dr Shailendra Kumar Tiwari, MIT, Manipal </li> 
+
+                            <li className="advitem">Dr Shilpam Saxena, LNCT, Bhopal </li>
+
+                            <li className="advitem">Dr. Ajay Kumar Maurya, UNSIET, Jaunpur </li> 
+
+                            <li className="advitem">Dr. Mandeep Singh, NITK, Surathkal </li>
+
+                            <li className="advitem">Dr Kumar Abhishek,NIT Patna </li>
+
+                            <li className="advitem">Dr Prashant Kumar, IIT Patna </li>
+
+                            <li className="advitem">Dr Sudeep P V, NIT Calicut </li>
+
+                            <li className="advitem">Dr Surendra Sriwas, BIET, Jhansi </li>
+
+                            <li className="advitem">Prof. Manish Tiwari, Manipal University Jaipur </li>
+
+                            <li className="advitem">Prof. Sumit Srivastava, Manipal University Jaipur </li>
+
+                            <li className="advitem">Dr. Shashank Sharma, Manipal University Jaipur </li>
+
+                            <li className="advitem">Col. Sanjiv Jaswal, Manipal University Jaipur </li>
+
+                            <li className="advitem">Dr. Dinesh Yadav, Manipal University Jaipur</li>
+
+                            <li className="advitem">Dr. Sushil Kumar Jain, Manipal University Jaipur </li>
+
+                            <li className="advitem">Dr. Mahesh Jangid, Manipal University Jaipur </li>
+
                         </ul>
                     </div>
                 </div>

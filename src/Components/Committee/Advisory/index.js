@@ -46,6 +46,11 @@ class Advisory extends Component {
                             <li className="advitem">   Prof. D. P. Sharma, Manipal University Jaipur</li>
                             <li className="advitem">   Prof. Shree Prakash Singh, NSTU Delhi</li>
                             <li className="advitem">   Prof. Brijendra Singh, Lucknow University</li>
+                            <li className="advitem">   Prof. Somshekhar Bhat, MIT, Manipal </li>
+                            <li className="advitem">   Prof G. Subramanya Nayak , MIT, Manipal </li>
+                            <li className="advitem">   Prof M Sathish Kumar, MIT, Manipal </li>
+                            <li className="advitem">   Prof Kumara Shama, MIT, Manipal</li>
+                            <li className="advitem">   Prof. G R Mishra, Dr RML Avadh University, Ayodhya</li>
                         </ul>
                     </div>
                 </div>

@@ -30,6 +30,10 @@ class Local extends Component {
                             <li className="advitem"> Dr. Chhagan Charan, ECED NIT Kurukshetra (+91-8607283446)</li>
                             <li className="advitem"> Dr. Akhillesh Kumar Sharma, Manipal University Jaipur (+91-7987628589) </li>
                             <li className="advitem"> Dr. Sakar Gupta, Poornima College of Engineering Jaipur (+91-7014296337)</li>
+                            <li className="advitem"> Mr. Sakar Gupta, Poornima College of Engineering Jaipur</li>
+                            <li className="advitem"> Mr. Vishal Das, Manipal University Jaipur </li>
+                            <li className="advitem"> Mr. Tapan Nahar, Manipal University Jaipur </li>
+                            <li className="advitem"> Mr. Mohit Kumar Sharma, Manipal University Jaipur </li>
                         </ul>
                     </div>
                 </div>
