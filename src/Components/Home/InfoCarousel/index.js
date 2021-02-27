@@ -42,7 +42,7 @@ class InfoCarousel extends Component {
                         <p className="infoData">
                         Proceedings of ICCWC 2021 will be published in scopus indexed book series: “Lecture Notes in Networks and Systems”
                             <br /><br />
-                            Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review.
+                            Selected papers from ICCWC-2021 will be submitted for the publication in a Special Issue of Wireless Personal Communication (Springer Journal) after thorough review (In Process).
                         </p>
                         <Table centered={true}
                          className="container container-2">
@@ -60,7 +60,7 @@ class InfoCarousel extends Component {
                             KEYDATES
                         </h1>
                         <ul className="list-disc infoData">
-                            <li className="listDate"> Last date of paper submission: 05th February, 2021</li>
+                            <li className="listDate"> Last date of paper submission: <strike>05th February, 2021</strike> -Extended- 28th February,2021</li>
                             <li className="listDate">Notification of paper acceptance: 20th March, 2021</li>
                             <li className="listDate">Camera ready paper submission: 28th March, 2021</li>
                             <li className="listDate">Last date of early bird registration: 15th April, 2021</li>

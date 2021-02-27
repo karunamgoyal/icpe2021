@@ -37,7 +37,7 @@ class KeyDates extends Component {
                     <tbody>
                         <tr>
                             <td>Last date of paper submission:</td>
-                            <td>05<sup>th</sup> February, 2021</td>
+                            <td><strike>05<sup>th</sup> February, 2021</strike> 28<sup>th</sup> February,2021</td>
                         </tr>
                         <tr>
                             <td>Notification of paper acceptance:</td>

@@ -51,6 +51,7 @@ class Home extends Component {
                     <li>Easy Chair Link for Registration &nbsp;  
                     <a href="https://easychair.org/conferences/?conf=iccwc2021"
                     className="black pulsate" id="textElement">https://easychair.org/conferences/?conf=iccwc2021</a></li>
+                    <li>Due to request from probable contributers, the paper submission date is extended to 28th February 2021</li>
                 </ul>
                 </marquee>
                     <h2 className="aboutHeading">
