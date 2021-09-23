@@ -17,7 +17,7 @@ class Home extends Component {
                     <div className="w-screen h-screen absolute">
                         <div className="homeBlock mx-auto text-center text-white">
                             <h1 className="mx-auto eventHeading font-bold">
-                                ICCWC-2021
+                                ICCWC-2022
                             </h1>
                             <br />
                             <span className="eventName">
